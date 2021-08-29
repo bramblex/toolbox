@@ -1,0 +1,16 @@
+{
+  "packages": [
+    "packages/@bramblex/pattern"
+  ],
+  "command": {
+    "bootstrap": {
+      "hoist": true,
+      "npmClientArgs": [
+        "--no-ci"
+      ]
+    }
+  },
+  "useWorkspace": true,
+  "version": "independent",
+  "npmClient": "yarn"
+}
